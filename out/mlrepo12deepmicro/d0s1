@@ -1,0 +1,3 @@
+,seed,data_idx,aug_params,tran_params,dr_params,head_params,head,n,p,acc_bl,acc,bacc,auc,ece,runtime
+0,1,0,{},{'space': 'prop'},{},"{'model': 'deepmicro', 'head': 'lp'}",deepmicro,112,950,0.5571428571428572,0.5714285714285714,0.5833333333333333,0.7291666666666667,0.23236956601453962,148.7342975139618
+0,1,0,{},{'space': 'prop'},{},"{'model': 'deepmicro', 'head': 'ft'}",deepmicro,112,950,0.5571428571428572,0.6071428571428571,0.6145833333333333,0.6458333333333334,0.3713133016098473,143.29367756843567

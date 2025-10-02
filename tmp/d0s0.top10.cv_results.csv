@@ -1,0 +1,4 @@
+label,mean_train_score,mean_test_score,std_test_score,mean_fit_time
+NonScaler_RandomForestClassifier,1.0,0.7513333333333334,0.10748850067694579,1.8143082141876221
+NonScaler_LinearSVC,0.7641818181818182,0.6856666666666666,0.04525974419331647,0.023267745971679688
+NonScaler_RandomForestClassifier,,,,0.02479867935180664
