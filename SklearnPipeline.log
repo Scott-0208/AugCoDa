@@ -1,0 +1,585 @@
+2025-10-02 03:56:19 Start reading data from tmp/d0s0
+2025-10-02 03:56:19 Finish loading data from tmp/d0s0, dimension is (112, 950), 
+ 			 label counts Counter({'False': 62, 'True': 50})
+2025-10-02 03:56:19 Filtered the features with max within_class prevalence lower than 0.2, dimension is (112, 82)
+2025-10-02 03:56:19 Dataset shape Counter({np.int64(0): 62, np.int64(1): 50}) before over sampling
+2025-10-02 03:56:22 Over sampled dataset with SMOTE, shape Counter({np.int64(1): 62, np.int64(0): 62})
+2025-10-02 03:56:22 Select the best tree-based classifiers: ['RandomForestClassifier'] 
+ 			 and combination of scalers: ['Non'] 
+ 			 and classifiers: 
+ 			 with default parameters
+2025-10-02 03:56:49 Hypertune the best classifier RandomForestClassifier with GridSearchCV
+2025-10-02 03:58:12 Best optimized classifier: RandomForestClassifier , Accuracy:0.72, Best Param:{'clf__max_depth': 4}
+2025-10-02 03:58:13 Pipeline is finished
+2025-10-02 03:58:22 Start reading data from tmp/d0s1
+2025-10-02 03:58:22 Finish loading data from tmp/d0s1, dimension is (112, 950), 
+ 			 label counts Counter({'False': 62, 'True': 50})
+2025-10-02 03:58:22 Filtered the features with max within_class prevalence lower than 0.2, dimension is (112, 78)
+2025-10-02 03:58:22 Dataset shape Counter({np.int64(0): 62, np.int64(1): 50}) before over sampling
+2025-10-02 03:58:24 Over sampled dataset with SMOTE, shape Counter({np.int64(1): 62, np.int64(0): 62})
+2025-10-02 03:58:24 Select the best tree-based classifiers: ['RandomForestClassifier'] 
+ 			 and combination of scalers: ['Non'] 
+ 			 and classifiers: 
+ 			 with default parameters
+2025-10-02 03:58:51 Hypertune the best classifier RandomForestClassifier with GridSearchCV
+2025-10-02 04:00:11 Best optimized classifier: RandomForestClassifier , Accuracy:0.77, Best Param:{'clf__max_depth': 4}
+2025-10-02 04:00:12 Pipeline is finished
+2025-10-02 04:00:20 Start reading data from tmp/d1s0
+2025-10-02 04:00:20 Finish loading data from tmp/d1s0, dimension is (128, 1138), 
+ 			 label counts Counter({'True': 74, 'False': 54})
+2025-10-02 04:00:20 Filtered the features with max within_class prevalence lower than 0.2, dimension is (128, 99)
+2025-10-02 04:00:20 Dataset shape Counter({np.int64(1): 74, np.int64(0): 54}) before over sampling
+2025-10-02 04:00:22 Over sampled dataset with SMOTE, shape Counter({np.int64(1): 74, np.int64(0): 74})
+2025-10-02 04:00:22 Select the best tree-based classifiers: ['RandomForestClassifier'] 
+ 			 and combination of scalers: ['Non'] 
+ 			 and classifiers: 
+ 			 with default parameters
+2025-10-02 04:00:50 Hypertune the best classifier RandomForestClassifier with GridSearchCV
+2025-10-02 04:02:11 Best optimized classifier: RandomForestClassifier , Accuracy:0.84, Best Param:{'clf__max_depth': 4}
+2025-10-02 04:02:12 Pipeline is finished
+2025-10-02 04:02:20 Start reading data from tmp/d1s1
+2025-10-02 04:02:20 Finish loading data from tmp/d1s1, dimension is (128, 1138), 
+ 			 label counts Counter({'True': 74, 'False': 54})
+2025-10-02 04:02:20 Filtered the features with max within_class prevalence lower than 0.2, dimension is (128, 101)
+2025-10-02 04:02:20 Dataset shape Counter({np.int64(1): 74, np.int64(0): 54}) before over sampling
+2025-10-02 04:02:23 Over sampled dataset with SMOTE, shape Counter({np.int64(1): 74, np.int64(0): 74})
+2025-10-02 04:02:23 Select the best tree-based classifiers: ['RandomForestClassifier'] 
+ 			 and combination of scalers: ['Non'] 
+ 			 and classifiers: 
+ 			 with default parameters
+2025-10-02 04:02:50 Hypertune the best classifier RandomForestClassifier with GridSearchCV
+2025-10-02 04:04:12 Best optimized classifier: RandomForestClassifier , Accuracy:0.84, Best Param:{'clf__max_depth': 4}
+2025-10-02 04:04:12 Pipeline is finished
+2025-10-02 11:10:24 Start reading data from tmp/d0s0
+2025-10-02 11:10:24 Finish loading data from tmp/d0s0, dimension is (112, 950), 
+ 			 label counts Counter({'False': 62, 'True': 50})
+2025-10-02 11:10:24 Filtered the features with max within_class prevalence lower than 0.2, dimension is (112, 82)
+2025-10-02 11:10:24 Dataset shape Counter({np.int64(0): 62, np.int64(1): 50}) before over sampling
+2025-10-02 11:10:27 Over sampled dataset with SMOTE, shape Counter({np.int64(1): 62, np.int64(0): 62})
+2025-10-02 11:10:27 Select the best tree-based classifiers: ['RandomForestClassifier'] 
+ 			 and combination of scalers: ['Non'] 
+ 			 and classifiers: 
+ 			 with default parameters
+2025-10-02 11:10:55 Hypertune the best classifier RandomForestClassifier with GridSearchCV
+2025-10-02 11:12:18 Best optimized classifier: RandomForestClassifier , Accuracy:0.72, Best Param:{'clf__max_depth': 4}
+2025-10-02 11:12:19 Pipeline is finished
+2025-10-02 11:16:09 Start reading data from tmp/d0s0
+2025-10-02 11:16:09 Finish loading data from tmp/d0s0, dimension is (112, 950), 
+ 			 label counts Counter({'False': 62, 'True': 50})
+2025-10-02 11:16:09 Filtered the features with max within_class prevalence lower than 0.2, dimension is (112, 82)
+2025-10-02 11:16:09 Dataset shape Counter({np.int64(0): 62, np.int64(1): 50}) before over sampling
+2025-10-02 11:16:12 Over sampled dataset with SMOTE, shape Counter({np.int64(1): 62, np.int64(0): 62})
+2025-10-02 11:16:12 Select the best tree-based classifiers: ['RandomForestClassifier'] 
+ 			 and combination of scalers: ['Non'] 
+ 			 and classifiers: 
+ 			 with default parameters
+2025-10-02 11:16:42 Hypertune the best classifier RandomForestClassifier with GridSearchCV
+2025-10-02 11:18:11 Best optimized classifier: RandomForestClassifier , Accuracy:0.72, Best Param:{'clf__max_depth': 4}
+2025-10-02 11:18:12 Pipeline is finished
+2025-10-02 11:18:12 Start reading data from tmp/d0s0
+2025-10-02 11:18:12 Start reading data from tmp/d0s0
+2025-10-02 11:18:12 Finish loading data from tmp/d0s0, dimension is (112, 950), 
+ 			 label counts Counter({'False': 62, 'True': 50})
+2025-10-02 11:18:12 Finish loading data from tmp/d0s0, dimension is (112, 950), 
+ 			 label counts Counter({'False': 62, 'True': 50})
+2025-10-02 11:18:12 Filtered the features with max within_class prevalence lower than 0.2, dimension is (112, 82)
+2025-10-02 11:18:12 Filtered the features with max within_class prevalence lower than 0.2, dimension is (112, 82)
+2025-10-02 11:18:12 Dataset shape Counter({np.int64(0): 62, np.int64(1): 50}) before over sampling
+2025-10-02 11:18:12 Dataset shape Counter({np.int64(0): 62, np.int64(1): 50}) before over sampling
+2025-10-02 11:18:12 Over sampled dataset with SMOTE, shape Counter({np.int64(1): 62, np.int64(0): 62})
+2025-10-02 11:18:12 Over sampled dataset with SMOTE, shape Counter({np.int64(1): 62, np.int64(0): 62})
+2025-10-02 11:18:12 Select the best tree-based classifiers: ['RandomForestClassifier'] 
+ 			 and combination of scalers: ['Non'] 
+ 			 and classifiers: 
+ 			 with default parameters
+2025-10-02 11:18:12 Select the best tree-based classifiers: ['RandomForestClassifier'] 
+ 			 and combination of scalers: ['Non'] 
+ 			 and classifiers: 
+ 			 with default parameters
+2025-10-02 11:18:38 Hypertune the best classifier RandomForestClassifier with GridSearchCV
+2025-10-02 11:18:38 Hypertune the best classifier RandomForestClassifier with GridSearchCV
+2025-10-02 11:20:06 Best optimized classifier: RandomForestClassifier , Accuracy:0.72, Best Param:{'clf__max_depth': 4}
+2025-10-02 11:20:06 Best optimized classifier: RandomForestClassifier , Accuracy:0.72, Best Param:{'clf__max_depth': 4}
+2025-10-02 11:20:07 Pipeline is finished
+2025-10-02 11:20:07 Pipeline is finished
+2025-10-02 11:20:07 Start reading data from tmp/d0s0
+2025-10-02 11:20:07 Start reading data from tmp/d0s0
+2025-10-02 11:20:07 Start reading data from tmp/d0s0
+2025-10-02 11:20:07 Finish loading data from tmp/d0s0, dimension is (112, 950), 
+ 			 label counts Counter({'False': 62, 'True': 50})
+2025-10-02 11:20:07 Finish loading data from tmp/d0s0, dimension is (112, 950), 
+ 			 label counts Counter({'False': 62, 'True': 50})
+2025-10-02 11:20:07 Finish loading data from tmp/d0s0, dimension is (112, 950), 
+ 			 label counts Counter({'False': 62, 'True': 50})
+2025-10-02 11:20:07 Filtered the features with max within_class prevalence lower than 0.2, dimension is (112, 82)
+2025-10-02 11:20:07 Filtered the features with max within_class prevalence lower than 0.2, dimension is (112, 82)
+2025-10-02 11:20:07 Filtered the features with max within_class prevalence lower than 0.2, dimension is (112, 82)
+2025-10-02 11:20:07 Dataset shape Counter({np.int64(0): 62, np.int64(1): 50}) before over sampling
+2025-10-02 11:20:07 Dataset shape Counter({np.int64(0): 62, np.int64(1): 50}) before over sampling
+2025-10-02 11:20:07 Dataset shape Counter({np.int64(0): 62, np.int64(1): 50}) before over sampling
+2025-10-02 11:20:07 Over sampled dataset with SMOTE, shape Counter({np.int64(1): 62, np.int64(0): 62})
+2025-10-02 11:20:07 Over sampled dataset with SMOTE, shape Counter({np.int64(1): 62, np.int64(0): 62})
+2025-10-02 11:20:07 Over sampled dataset with SMOTE, shape Counter({np.int64(1): 62, np.int64(0): 62})
+2025-10-02 11:20:07 Select the best tree-based classifiers: ['RandomForestClassifier'] 
+ 			 and combination of scalers: ['Non'] 
+ 			 and classifiers: 
+ 			 with default parameters
+2025-10-02 11:20:07 Select the best tree-based classifiers: ['RandomForestClassifier'] 
+ 			 and combination of scalers: ['Non'] 
+ 			 and classifiers: 
+ 			 with default parameters
+2025-10-02 11:20:07 Select the best tree-based classifiers: ['RandomForestClassifier'] 
+ 			 and combination of scalers: ['Non'] 
+ 			 and classifiers: 
+ 			 with default parameters
+2025-10-02 11:20:32 Hypertune the best classifier RandomForestClassifier with GridSearchCV
+2025-10-02 11:20:32 Hypertune the best classifier RandomForestClassifier with GridSearchCV
+2025-10-02 11:20:32 Hypertune the best classifier RandomForestClassifier with GridSearchCV
+2025-10-02 11:22:01 Best optimized classifier: RandomForestClassifier , Accuracy:0.72, Best Param:{'clf__max_depth': 4}
+2025-10-02 11:22:01 Best optimized classifier: RandomForestClassifier , Accuracy:0.72, Best Param:{'clf__max_depth': 4}
+2025-10-02 11:22:01 Best optimized classifier: RandomForestClassifier , Accuracy:0.72, Best Param:{'clf__max_depth': 4}
+2025-10-02 11:22:02 Pipeline is finished
+2025-10-02 11:22:02 Pipeline is finished
+2025-10-02 11:22:02 Pipeline is finished
+2025-10-02 11:22:02 Start reading data from tmp/d0s0
+2025-10-02 11:22:02 Start reading data from tmp/d0s0
+2025-10-02 11:22:02 Start reading data from tmp/d0s0
+2025-10-02 11:22:02 Start reading data from tmp/d0s0
+2025-10-02 11:22:02 Finish loading data from tmp/d0s0, dimension is (112, 950), 
+ 			 label counts Counter({'False': 62, 'True': 50})
+2025-10-02 11:22:02 Finish loading data from tmp/d0s0, dimension is (112, 950), 
+ 			 label counts Counter({'False': 62, 'True': 50})
+2025-10-02 11:22:02 Finish loading data from tmp/d0s0, dimension is (112, 950), 
+ 			 label counts Counter({'False': 62, 'True': 50})
+2025-10-02 11:22:02 Finish loading data from tmp/d0s0, dimension is (112, 950), 
+ 			 label counts Counter({'False': 62, 'True': 50})
+2025-10-02 11:22:02 Filtered the features with max within_class prevalence lower than 0.2, dimension is (112, 82)
+2025-10-02 11:22:02 Filtered the features with max within_class prevalence lower than 0.2, dimension is (112, 82)
+2025-10-02 11:22:02 Filtered the features with max within_class prevalence lower than 0.2, dimension is (112, 82)
+2025-10-02 11:22:02 Filtered the features with max within_class prevalence lower than 0.2, dimension is (112, 82)
+2025-10-02 11:22:02 Dataset shape Counter({np.int64(0): 62, np.int64(1): 50}) before over sampling
+2025-10-02 11:22:02 Dataset shape Counter({np.int64(0): 62, np.int64(1): 50}) before over sampling
+2025-10-02 11:22:02 Dataset shape Counter({np.int64(0): 62, np.int64(1): 50}) before over sampling
+2025-10-02 11:22:02 Dataset shape Counter({np.int64(0): 62, np.int64(1): 50}) before over sampling
+2025-10-02 11:22:02 Over sampled dataset with SMOTE, shape Counter({np.int64(1): 62, np.int64(0): 62})
+2025-10-02 11:22:02 Over sampled dataset with SMOTE, shape Counter({np.int64(1): 62, np.int64(0): 62})
+2025-10-02 11:22:02 Over sampled dataset with SMOTE, shape Counter({np.int64(1): 62, np.int64(0): 62})
+2025-10-02 11:22:02 Over sampled dataset with SMOTE, shape Counter({np.int64(1): 62, np.int64(0): 62})
+2025-10-02 11:22:02 Select the best tree-based classifiers: ['RandomForestClassifier'] 
+ 			 and combination of scalers: ['Non'] 
+ 			 and classifiers: 
+ 			 with default parameters
+2025-10-02 11:22:02 Select the best tree-based classifiers: ['RandomForestClassifier'] 
+ 			 and combination of scalers: ['Non'] 
+ 			 and classifiers: 
+ 			 with default parameters
+2025-10-02 11:22:02 Select the best tree-based classifiers: ['RandomForestClassifier'] 
+ 			 and combination of scalers: ['Non'] 
+ 			 and classifiers: 
+ 			 with default parameters
+2025-10-02 11:22:02 Select the best tree-based classifiers: ['RandomForestClassifier'] 
+ 			 and combination of scalers: ['Non'] 
+ 			 and classifiers: 
+ 			 with default parameters
+2025-10-02 11:22:27 Hypertune the best classifier RandomForestClassifier with GridSearchCV
+2025-10-02 11:22:27 Hypertune the best classifier RandomForestClassifier with GridSearchCV
+2025-10-02 11:22:27 Hypertune the best classifier RandomForestClassifier with GridSearchCV
+2025-10-02 11:22:27 Hypertune the best classifier RandomForestClassifier with GridSearchCV
+2025-10-02 11:24:04 Best optimized classifier: RandomForestClassifier , Accuracy:0.72, Best Param:{'clf__max_depth': 4}
+2025-10-02 11:24:04 Best optimized classifier: RandomForestClassifier , Accuracy:0.72, Best Param:{'clf__max_depth': 4}
+2025-10-02 11:24:04 Best optimized classifier: RandomForestClassifier , Accuracy:0.72, Best Param:{'clf__max_depth': 4}
+2025-10-02 11:24:04 Best optimized classifier: RandomForestClassifier , Accuracy:0.72, Best Param:{'clf__max_depth': 4}
+2025-10-02 11:24:05 Pipeline is finished
+2025-10-02 11:24:05 Pipeline is finished
+2025-10-02 11:24:05 Pipeline is finished
+2025-10-02 11:24:05 Pipeline is finished
+2025-10-02 11:31:21 Start reading data from tmp/d0s0
+2025-10-02 11:31:21 Finish loading data from tmp/d0s0, dimension is (112, 950), 
+ 			 label counts Counter({'False': 62, 'True': 50})
+2025-10-02 11:31:21 Filtered the features with max within_class prevalence lower than 0.2, dimension is (112, 82)
+2025-10-02 11:31:21 Dataset shape Counter({np.int64(0): 62, np.int64(1): 50}) before over sampling
+2025-10-02 11:31:24 Over sampled dataset with SMOTE, shape Counter({np.int64(1): 62, np.int64(0): 62})
+2025-10-02 11:31:24 Select the best tree-based classifiers: ['RandomForestClassifier'] 
+ 			 and combination of scalers: ['Non'] 
+ 			 and classifiers: 
+ 			 with default parameters
+2025-10-02 11:31:51 Hypertune the best classifier RandomForestClassifier with GridSearchCV
+2025-10-02 11:33:25 Best optimized classifier: RandomForestClassifier , Accuracy:0.72, Best Param:{'clf__max_depth': 4}
+2025-10-02 11:33:26 Pipeline is finished
+2025-10-02 11:33:26 Start reading data from tmp/d0s0
+2025-10-02 11:33:26 Start reading data from tmp/d0s0
+2025-10-02 11:33:26 Finish loading data from tmp/d0s0, dimension is (112, 950), 
+ 			 label counts Counter({'False': 62, 'True': 50})
+2025-10-02 11:33:26 Finish loading data from tmp/d0s0, dimension is (112, 950), 
+ 			 label counts Counter({'False': 62, 'True': 50})
+2025-10-02 11:33:26 Filtered the features with max within_class prevalence lower than 0.2, dimension is (112, 82)
+2025-10-02 11:33:26 Filtered the features with max within_class prevalence lower than 0.2, dimension is (112, 82)
+2025-10-02 11:33:26 Dataset shape Counter({np.int64(0): 62, np.int64(1): 50}) before over sampling
+2025-10-02 11:33:26 Dataset shape Counter({np.int64(0): 62, np.int64(1): 50}) before over sampling
+2025-10-02 11:33:26 Over sampled dataset with SMOTE, shape Counter({np.int64(1): 62, np.int64(0): 62})
+2025-10-02 11:33:26 Over sampled dataset with SMOTE, shape Counter({np.int64(1): 62, np.int64(0): 62})
+2025-10-02 11:33:26 Select the best tree-based classifiers: ['RandomForestClassifier'] 
+ 			 and combination of scalers: ['Non'] 
+ 			 and classifiers: 
+ 			 with default parameters
+2025-10-02 11:33:26 Select the best tree-based classifiers: ['RandomForestClassifier'] 
+ 			 and combination of scalers: ['Non'] 
+ 			 and classifiers: 
+ 			 with default parameters
+2025-10-02 11:33:50 Hypertune the best classifier RandomForestClassifier with GridSearchCV
+2025-10-02 11:33:50 Hypertune the best classifier RandomForestClassifier with GridSearchCV
+2025-10-02 11:35:16 Best optimized classifier: RandomForestClassifier , Accuracy:0.72, Best Param:{'clf__max_depth': 4}
+2025-10-02 11:35:16 Best optimized classifier: RandomForestClassifier , Accuracy:0.72, Best Param:{'clf__max_depth': 4}
+2025-10-02 11:35:17 Pipeline is finished
+2025-10-02 11:35:17 Pipeline is finished
+2025-10-02 11:35:17 Start reading data from tmp/d0s0
+2025-10-02 11:35:17 Start reading data from tmp/d0s0
+2025-10-02 11:35:17 Start reading data from tmp/d0s0
+2025-10-02 11:35:17 Finish loading data from tmp/d0s0, dimension is (112, 950), 
+ 			 label counts Counter({'False': 62, 'True': 50})
+2025-10-02 11:35:17 Finish loading data from tmp/d0s0, dimension is (112, 950), 
+ 			 label counts Counter({'False': 62, 'True': 50})
+2025-10-02 11:35:17 Finish loading data from tmp/d0s0, dimension is (112, 950), 
+ 			 label counts Counter({'False': 62, 'True': 50})
+2025-10-02 11:35:17 Filtered the features with max within_class prevalence lower than 0.2, dimension is (112, 82)
+2025-10-02 11:35:17 Filtered the features with max within_class prevalence lower than 0.2, dimension is (112, 82)
+2025-10-02 11:35:17 Filtered the features with max within_class prevalence lower than 0.2, dimension is (112, 82)
+2025-10-02 11:35:17 Dataset shape Counter({np.int64(0): 62, np.int64(1): 50}) before over sampling
+2025-10-02 11:35:17 Dataset shape Counter({np.int64(0): 62, np.int64(1): 50}) before over sampling
+2025-10-02 11:35:17 Dataset shape Counter({np.int64(0): 62, np.int64(1): 50}) before over sampling
+2025-10-02 11:35:17 Over sampled dataset with SMOTE, shape Counter({np.int64(1): 62, np.int64(0): 62})
+2025-10-02 11:35:17 Over sampled dataset with SMOTE, shape Counter({np.int64(1): 62, np.int64(0): 62})
+2025-10-02 11:35:17 Over sampled dataset with SMOTE, shape Counter({np.int64(1): 62, np.int64(0): 62})
+2025-10-02 11:35:17 Select the best tree-based classifiers: ['RandomForestClassifier'] 
+ 			 and combination of scalers: ['Non'] 
+ 			 and classifiers: 
+ 			 with default parameters
+2025-10-02 11:35:17 Select the best tree-based classifiers: ['RandomForestClassifier'] 
+ 			 and combination of scalers: ['Non'] 
+ 			 and classifiers: 
+ 			 with default parameters
+2025-10-02 11:35:17 Select the best tree-based classifiers: ['RandomForestClassifier'] 
+ 			 and combination of scalers: ['Non'] 
+ 			 and classifiers: 
+ 			 with default parameters
+2025-10-02 11:35:39 Hypertune the best classifier RandomForestClassifier with GridSearchCV
+2025-10-02 11:35:39 Hypertune the best classifier RandomForestClassifier with GridSearchCV
+2025-10-02 11:35:39 Hypertune the best classifier RandomForestClassifier with GridSearchCV
+2025-10-02 11:37:07 Best optimized classifier: RandomForestClassifier , Accuracy:0.72, Best Param:{'clf__max_depth': 4}
+2025-10-02 11:37:07 Best optimized classifier: RandomForestClassifier , Accuracy:0.72, Best Param:{'clf__max_depth': 4}
+2025-10-02 11:37:07 Best optimized classifier: RandomForestClassifier , Accuracy:0.72, Best Param:{'clf__max_depth': 4}
+2025-10-02 11:37:08 Pipeline is finished
+2025-10-02 11:37:08 Pipeline is finished
+2025-10-02 11:37:08 Pipeline is finished
+2025-10-02 11:37:08 Start reading data from tmp/d0s0
+2025-10-02 11:37:08 Start reading data from tmp/d0s0
+2025-10-02 11:37:08 Start reading data from tmp/d0s0
+2025-10-02 11:37:08 Start reading data from tmp/d0s0
+2025-10-02 11:37:08 Finish loading data from tmp/d0s0, dimension is (112, 950), 
+ 			 label counts Counter({'False': 62, 'True': 50})
+2025-10-02 11:37:08 Finish loading data from tmp/d0s0, dimension is (112, 950), 
+ 			 label counts Counter({'False': 62, 'True': 50})
+2025-10-02 11:37:08 Finish loading data from tmp/d0s0, dimension is (112, 950), 
+ 			 label counts Counter({'False': 62, 'True': 50})
+2025-10-02 11:37:08 Finish loading data from tmp/d0s0, dimension is (112, 950), 
+ 			 label counts Counter({'False': 62, 'True': 50})
+2025-10-02 11:37:08 Filtered the features with max within_class prevalence lower than 0.2, dimension is (112, 82)
+2025-10-02 11:37:08 Filtered the features with max within_class prevalence lower than 0.2, dimension is (112, 82)
+2025-10-02 11:37:08 Filtered the features with max within_class prevalence lower than 0.2, dimension is (112, 82)
+2025-10-02 11:37:08 Filtered the features with max within_class prevalence lower than 0.2, dimension is (112, 82)
+2025-10-02 11:37:08 Dataset shape Counter({np.int64(0): 62, np.int64(1): 50}) before over sampling
+2025-10-02 11:37:08 Dataset shape Counter({np.int64(0): 62, np.int64(1): 50}) before over sampling
+2025-10-02 11:37:08 Dataset shape Counter({np.int64(0): 62, np.int64(1): 50}) before over sampling
+2025-10-02 11:37:08 Dataset shape Counter({np.int64(0): 62, np.int64(1): 50}) before over sampling
+2025-10-02 11:37:08 Over sampled dataset with SMOTE, shape Counter({np.int64(1): 62, np.int64(0): 62})
+2025-10-02 11:37:08 Over sampled dataset with SMOTE, shape Counter({np.int64(1): 62, np.int64(0): 62})
+2025-10-02 11:37:08 Over sampled dataset with SMOTE, shape Counter({np.int64(1): 62, np.int64(0): 62})
+2025-10-02 11:37:08 Over sampled dataset with SMOTE, shape Counter({np.int64(1): 62, np.int64(0): 62})
+2025-10-02 11:37:08 Select the best tree-based classifiers: ['RandomForestClassifier'] 
+ 			 and combination of scalers: ['Non'] 
+ 			 and classifiers: 
+ 			 with default parameters
+2025-10-02 11:37:08 Select the best tree-based classifiers: ['RandomForestClassifier'] 
+ 			 and combination of scalers: ['Non'] 
+ 			 and classifiers: 
+ 			 with default parameters
+2025-10-02 11:37:08 Select the best tree-based classifiers: ['RandomForestClassifier'] 
+ 			 and combination of scalers: ['Non'] 
+ 			 and classifiers: 
+ 			 with default parameters
+2025-10-02 11:37:08 Select the best tree-based classifiers: ['RandomForestClassifier'] 
+ 			 and combination of scalers: ['Non'] 
+ 			 and classifiers: 
+ 			 with default parameters
+2025-10-02 11:37:31 Hypertune the best classifier RandomForestClassifier with GridSearchCV
+2025-10-02 11:37:31 Hypertune the best classifier RandomForestClassifier with GridSearchCV
+2025-10-02 11:37:31 Hypertune the best classifier RandomForestClassifier with GridSearchCV
+2025-10-02 11:37:31 Hypertune the best classifier RandomForestClassifier with GridSearchCV
+2025-10-02 11:39:02 Best optimized classifier: RandomForestClassifier , Accuracy:0.72, Best Param:{'clf__max_depth': 4}
+2025-10-02 11:39:02 Best optimized classifier: RandomForestClassifier , Accuracy:0.72, Best Param:{'clf__max_depth': 4}
+2025-10-02 11:39:02 Best optimized classifier: RandomForestClassifier , Accuracy:0.72, Best Param:{'clf__max_depth': 4}
+2025-10-02 11:39:02 Best optimized classifier: RandomForestClassifier , Accuracy:0.72, Best Param:{'clf__max_depth': 4}
+2025-10-02 11:39:03 Pipeline is finished
+2025-10-02 11:39:03 Pipeline is finished
+2025-10-02 11:39:03 Pipeline is finished
+2025-10-02 11:39:03 Pipeline is finished
+2025-10-02 11:42:25 Start reading data from tmp/d0s0
+2025-10-02 11:42:25 Finish loading data from tmp/d0s0, dimension is (112, 950), 
+ 			 label counts Counter({'False': 62, 'True': 50})
+2025-10-02 11:42:25 Filtered the features with max within_class prevalence lower than 0.2, dimension is (112, 82)
+2025-10-02 11:42:25 Dataset shape Counter({np.int64(0): 62, np.int64(1): 50}) before over sampling
+2025-10-02 11:42:28 Over sampled dataset with SMOTE, shape Counter({np.int64(1): 62, np.int64(0): 62})
+2025-10-02 11:42:28 Select the best tree-based classifiers: ['RandomForestClassifier'] 
+ 			 and combination of scalers: ['Non'] 
+ 			 and classifiers: 
+ 			 with default parameters
+2025-10-02 11:42:58 Hypertune the best classifier RandomForestClassifier with GridSearchCV
+2025-10-02 11:44:28 Best optimized classifier: RandomForestClassifier , Accuracy:0.72, Best Param:{'clf__max_depth': 4}
+2025-10-02 11:44:29 Pipeline is finished
+2025-10-02 11:44:29 Start reading data from tmp/d0s0
+2025-10-02 11:44:29 Start reading data from tmp/d0s0
+2025-10-02 11:44:29 Finish loading data from tmp/d0s0, dimension is (112, 950), 
+ 			 label counts Counter({'False': 62, 'True': 50})
+2025-10-02 11:44:29 Finish loading data from tmp/d0s0, dimension is (112, 950), 
+ 			 label counts Counter({'False': 62, 'True': 50})
+2025-10-02 11:44:29 Filtered the features with max within_class prevalence lower than 0.2, dimension is (112, 82)
+2025-10-02 11:44:29 Filtered the features with max within_class prevalence lower than 0.2, dimension is (112, 82)
+2025-10-02 11:44:29 Dataset shape Counter({np.int64(0): 62, np.int64(1): 50}) before over sampling
+2025-10-02 11:44:29 Dataset shape Counter({np.int64(0): 62, np.int64(1): 50}) before over sampling
+2025-10-02 11:44:29 Over sampled dataset with SMOTE, shape Counter({np.int64(1): 62, np.int64(0): 62})
+2025-10-02 11:44:29 Over sampled dataset with SMOTE, shape Counter({np.int64(1): 62, np.int64(0): 62})
+2025-10-02 11:44:29 Select the best tree-based classifiers: ['RandomForestClassifier'] 
+ 			 and combination of scalers: ['Non'] 
+ 			 and classifiers: 
+ 			 with default parameters
+2025-10-02 11:44:29 Select the best tree-based classifiers: ['RandomForestClassifier'] 
+ 			 and combination of scalers: ['Non'] 
+ 			 and classifiers: 
+ 			 with default parameters
+2025-10-02 11:44:55 Hypertune the best classifier RandomForestClassifier with GridSearchCV
+2025-10-02 11:44:55 Hypertune the best classifier RandomForestClassifier with GridSearchCV
+2025-10-02 11:46:29 Best optimized classifier: RandomForestClassifier , Accuracy:0.72, Best Param:{'clf__max_depth': 4}
+2025-10-02 11:46:29 Best optimized classifier: RandomForestClassifier , Accuracy:0.72, Best Param:{'clf__max_depth': 4}
+2025-10-02 11:46:30 Pipeline is finished
+2025-10-02 11:46:30 Pipeline is finished
+2025-10-02 11:46:30 Start reading data from tmp/d0s0
+2025-10-02 11:46:30 Start reading data from tmp/d0s0
+2025-10-02 11:46:30 Start reading data from tmp/d0s0
+2025-10-02 11:46:30 Finish loading data from tmp/d0s0, dimension is (112, 950), 
+ 			 label counts Counter({'False': 62, 'True': 50})
+2025-10-02 11:46:30 Finish loading data from tmp/d0s0, dimension is (112, 950), 
+ 			 label counts Counter({'False': 62, 'True': 50})
+2025-10-02 11:46:30 Finish loading data from tmp/d0s0, dimension is (112, 950), 
+ 			 label counts Counter({'False': 62, 'True': 50})
+2025-10-02 11:46:30 Filtered the features with max within_class prevalence lower than 0.2, dimension is (112, 82)
+2025-10-02 11:46:30 Filtered the features with max within_class prevalence lower than 0.2, dimension is (112, 82)
+2025-10-02 11:46:30 Filtered the features with max within_class prevalence lower than 0.2, dimension is (112, 82)
+2025-10-02 11:46:30 Dataset shape Counter({np.int64(0): 62, np.int64(1): 50}) before over sampling
+2025-10-02 11:46:30 Dataset shape Counter({np.int64(0): 62, np.int64(1): 50}) before over sampling
+2025-10-02 11:46:30 Dataset shape Counter({np.int64(0): 62, np.int64(1): 50}) before over sampling
+2025-10-02 11:46:30 Over sampled dataset with SMOTE, shape Counter({np.int64(1): 62, np.int64(0): 62})
+2025-10-02 11:46:30 Over sampled dataset with SMOTE, shape Counter({np.int64(1): 62, np.int64(0): 62})
+2025-10-02 11:46:30 Over sampled dataset with SMOTE, shape Counter({np.int64(1): 62, np.int64(0): 62})
+2025-10-02 11:46:30 Select the best tree-based classifiers: ['RandomForestClassifier'] 
+ 			 and combination of scalers: ['Non'] 
+ 			 and classifiers: 
+ 			 with default parameters
+2025-10-02 11:46:30 Select the best tree-based classifiers: ['RandomForestClassifier'] 
+ 			 and combination of scalers: ['Non'] 
+ 			 and classifiers: 
+ 			 with default parameters
+2025-10-02 11:46:30 Select the best tree-based classifiers: ['RandomForestClassifier'] 
+ 			 and combination of scalers: ['Non'] 
+ 			 and classifiers: 
+ 			 with default parameters
+2025-10-02 11:47:00 Hypertune the best classifier RandomForestClassifier with GridSearchCV
+2025-10-02 11:47:00 Hypertune the best classifier RandomForestClassifier with GridSearchCV
+2025-10-02 11:47:00 Hypertune the best classifier RandomForestClassifier with GridSearchCV
+2025-10-02 11:48:41 Best optimized classifier: RandomForestClassifier , Accuracy:0.72, Best Param:{'clf__max_depth': 4}
+2025-10-02 11:48:41 Best optimized classifier: RandomForestClassifier , Accuracy:0.72, Best Param:{'clf__max_depth': 4}
+2025-10-02 11:48:41 Best optimized classifier: RandomForestClassifier , Accuracy:0.72, Best Param:{'clf__max_depth': 4}
+2025-10-02 11:48:42 Pipeline is finished
+2025-10-02 11:48:42 Pipeline is finished
+2025-10-02 11:48:42 Pipeline is finished
+2025-10-02 11:48:42 Start reading data from tmp/d0s0
+2025-10-02 11:48:42 Start reading data from tmp/d0s0
+2025-10-02 11:48:42 Start reading data from tmp/d0s0
+2025-10-02 11:48:42 Start reading data from tmp/d0s0
+2025-10-02 11:48:42 Finish loading data from tmp/d0s0, dimension is (112, 950), 
+ 			 label counts Counter({'False': 62, 'True': 50})
+2025-10-02 11:48:42 Finish loading data from tmp/d0s0, dimension is (112, 950), 
+ 			 label counts Counter({'False': 62, 'True': 50})
+2025-10-02 11:48:42 Finish loading data from tmp/d0s0, dimension is (112, 950), 
+ 			 label counts Counter({'False': 62, 'True': 50})
+2025-10-02 11:48:42 Finish loading data from tmp/d0s0, dimension is (112, 950), 
+ 			 label counts Counter({'False': 62, 'True': 50})
+2025-10-02 11:48:42 Filtered the features with max within_class prevalence lower than 0.2, dimension is (112, 82)
+2025-10-02 11:48:42 Filtered the features with max within_class prevalence lower than 0.2, dimension is (112, 82)
+2025-10-02 11:48:42 Filtered the features with max within_class prevalence lower than 0.2, dimension is (112, 82)
+2025-10-02 11:48:42 Filtered the features with max within_class prevalence lower than 0.2, dimension is (112, 82)
+2025-10-02 11:48:42 Dataset shape Counter({np.int64(0): 62, np.int64(1): 50}) before over sampling
+2025-10-02 11:48:42 Dataset shape Counter({np.int64(0): 62, np.int64(1): 50}) before over sampling
+2025-10-02 11:48:42 Dataset shape Counter({np.int64(0): 62, np.int64(1): 50}) before over sampling
+2025-10-02 11:48:42 Dataset shape Counter({np.int64(0): 62, np.int64(1): 50}) before over sampling
+2025-10-02 11:48:42 Over sampled dataset with SMOTE, shape Counter({np.int64(1): 62, np.int64(0): 62})
+2025-10-02 11:48:42 Over sampled dataset with SMOTE, shape Counter({np.int64(1): 62, np.int64(0): 62})
+2025-10-02 11:48:42 Over sampled dataset with SMOTE, shape Counter({np.int64(1): 62, np.int64(0): 62})
+2025-10-02 11:48:42 Over sampled dataset with SMOTE, shape Counter({np.int64(1): 62, np.int64(0): 62})
+2025-10-02 11:48:42 Select the best tree-based classifiers: ['RandomForestClassifier'] 
+ 			 and combination of scalers: ['Non'] 
+ 			 and classifiers: 
+ 			 with default parameters
+2025-10-02 11:48:42 Select the best tree-based classifiers: ['RandomForestClassifier'] 
+ 			 and combination of scalers: ['Non'] 
+ 			 and classifiers: 
+ 			 with default parameters
+2025-10-02 11:48:42 Select the best tree-based classifiers: ['RandomForestClassifier'] 
+ 			 and combination of scalers: ['Non'] 
+ 			 and classifiers: 
+ 			 with default parameters
+2025-10-02 11:48:42 Select the best tree-based classifiers: ['RandomForestClassifier'] 
+ 			 and combination of scalers: ['Non'] 
+ 			 and classifiers: 
+ 			 with default parameters
+2025-10-02 11:49:12 Hypertune the best classifier RandomForestClassifier with GridSearchCV
+2025-10-02 11:49:12 Hypertune the best classifier RandomForestClassifier with GridSearchCV
+2025-10-02 11:49:12 Hypertune the best classifier RandomForestClassifier with GridSearchCV
+2025-10-02 11:49:12 Hypertune the best classifier RandomForestClassifier with GridSearchCV
+2025-10-02 11:50:49 Best optimized classifier: RandomForestClassifier , Accuracy:0.72, Best Param:{'clf__max_depth': 4}
+2025-10-02 11:50:49 Best optimized classifier: RandomForestClassifier , Accuracy:0.72, Best Param:{'clf__max_depth': 4}
+2025-10-02 11:50:49 Best optimized classifier: RandomForestClassifier , Accuracy:0.72, Best Param:{'clf__max_depth': 4}
+2025-10-02 11:50:49 Best optimized classifier: RandomForestClassifier , Accuracy:0.72, Best Param:{'clf__max_depth': 4}
+2025-10-02 11:50:50 Pipeline is finished
+2025-10-02 11:50:50 Pipeline is finished
+2025-10-02 11:50:50 Pipeline is finished
+2025-10-02 11:50:50 Pipeline is finished
+2025-10-02 11:54:54 Start reading data from tmp/d0s0
+2025-10-02 11:54:54 Finish loading data from tmp/d0s0, dimension is (112, 950), 
+ 			 label counts Counter({'False': 62, 'True': 50})
+2025-10-02 11:54:54 Filtered the features with max within_class prevalence lower than 0.2, dimension is (112, 82)
+2025-10-02 11:54:54 Dataset shape Counter({np.int64(0): 62, np.int64(1): 50}) before over sampling
+2025-10-02 11:54:57 Over sampled dataset with SMOTE, shape Counter({np.int64(1): 62, np.int64(0): 62})
+2025-10-02 11:54:57 Select the best tree-based classifiers: ['RandomForestClassifier'] 
+ 			 and combination of scalers: ['Non'] 
+ 			 and classifiers: 
+ 			 with default parameters
+2025-10-02 11:55:26 Hypertune the best classifier RandomForestClassifier with GridSearchCV
+2025-10-02 11:57:00 Best optimized classifier: RandomForestClassifier , Accuracy:0.72, Best Param:{'clf__max_depth': 4}
+2025-10-02 11:57:00 Pipeline is finished
+2025-10-02 11:57:00 Start reading data from tmp/d0s0
+2025-10-02 11:57:00 Start reading data from tmp/d0s0
+2025-10-02 11:57:00 Finish loading data from tmp/d0s0, dimension is (112, 950), 
+ 			 label counts Counter({'False': 62, 'True': 50})
+2025-10-02 11:57:00 Finish loading data from tmp/d0s0, dimension is (112, 950), 
+ 			 label counts Counter({'False': 62, 'True': 50})
+2025-10-02 11:57:00 Filtered the features with max within_class prevalence lower than 0.2, dimension is (112, 82)
+2025-10-02 11:57:00 Filtered the features with max within_class prevalence lower than 0.2, dimension is (112, 82)
+2025-10-02 11:57:00 Dataset shape Counter({np.int64(0): 62, np.int64(1): 50}) before over sampling
+2025-10-02 11:57:00 Dataset shape Counter({np.int64(0): 62, np.int64(1): 50}) before over sampling
+2025-10-02 11:57:00 Over sampled dataset with SMOTE, shape Counter({np.int64(1): 62, np.int64(0): 62})
+2025-10-02 11:57:00 Over sampled dataset with SMOTE, shape Counter({np.int64(1): 62, np.int64(0): 62})
+2025-10-02 11:57:00 Select the best tree-based classifiers: ['RandomForestClassifier'] 
+ 			 and combination of scalers: ['Non'] 
+ 			 and classifiers: 
+ 			 with default parameters
+2025-10-02 11:57:00 Select the best tree-based classifiers: ['RandomForestClassifier'] 
+ 			 and combination of scalers: ['Non'] 
+ 			 and classifiers: 
+ 			 with default parameters
+2025-10-02 11:57:24 Hypertune the best classifier RandomForestClassifier with GridSearchCV
+2025-10-02 11:57:24 Hypertune the best classifier RandomForestClassifier with GridSearchCV
+2025-10-02 11:58:56 Best optimized classifier: RandomForestClassifier , Accuracy:0.72, Best Param:{'clf__max_depth': 4}
+2025-10-02 11:58:56 Best optimized classifier: RandomForestClassifier , Accuracy:0.72, Best Param:{'clf__max_depth': 4}
+2025-10-02 11:58:57 Pipeline is finished
+2025-10-02 11:58:57 Pipeline is finished
+2025-10-02 11:58:57 Start reading data from tmp/d0s0
+2025-10-02 11:58:57 Start reading data from tmp/d0s0
+2025-10-02 11:58:57 Start reading data from tmp/d0s0
+2025-10-02 11:58:57 Finish loading data from tmp/d0s0, dimension is (112, 950), 
+ 			 label counts Counter({'False': 62, 'True': 50})
+2025-10-02 11:58:57 Finish loading data from tmp/d0s0, dimension is (112, 950), 
+ 			 label counts Counter({'False': 62, 'True': 50})
+2025-10-02 11:58:57 Finish loading data from tmp/d0s0, dimension is (112, 950), 
+ 			 label counts Counter({'False': 62, 'True': 50})
+2025-10-02 11:58:57 Filtered the features with max within_class prevalence lower than 0.2, dimension is (112, 82)
+2025-10-02 11:58:57 Filtered the features with max within_class prevalence lower than 0.2, dimension is (112, 82)
+2025-10-02 11:58:57 Filtered the features with max within_class prevalence lower than 0.2, dimension is (112, 82)
+2025-10-02 11:58:57 Dataset shape Counter({np.int64(0): 62, np.int64(1): 50}) before over sampling
+2025-10-02 11:58:57 Dataset shape Counter({np.int64(0): 62, np.int64(1): 50}) before over sampling
+2025-10-02 11:58:57 Dataset shape Counter({np.int64(0): 62, np.int64(1): 50}) before over sampling
+2025-10-02 11:58:57 Over sampled dataset with SMOTE, shape Counter({np.int64(1): 62, np.int64(0): 62})
+2025-10-02 11:58:57 Over sampled dataset with SMOTE, shape Counter({np.int64(1): 62, np.int64(0): 62})
+2025-10-02 11:58:57 Over sampled dataset with SMOTE, shape Counter({np.int64(1): 62, np.int64(0): 62})
+2025-10-02 11:58:57 Select the best tree-based classifiers: ['RandomForestClassifier'] 
+ 			 and combination of scalers: ['Non'] 
+ 			 and classifiers: 
+ 			 with default parameters
+2025-10-02 11:58:57 Select the best tree-based classifiers: ['RandomForestClassifier'] 
+ 			 and combination of scalers: ['Non'] 
+ 			 and classifiers: 
+ 			 with default parameters
+2025-10-02 11:58:57 Select the best tree-based classifiers: ['RandomForestClassifier'] 
+ 			 and combination of scalers: ['Non'] 
+ 			 and classifiers: 
+ 			 with default parameters
+2025-10-02 11:59:21 Hypertune the best classifier RandomForestClassifier with GridSearchCV
+2025-10-02 11:59:21 Hypertune the best classifier RandomForestClassifier with GridSearchCV
+2025-10-02 11:59:21 Hypertune the best classifier RandomForestClassifier with GridSearchCV
+2025-10-02 12:00:54 Best optimized classifier: RandomForestClassifier , Accuracy:0.72, Best Param:{'clf__max_depth': 4}
+2025-10-02 12:00:54 Best optimized classifier: RandomForestClassifier , Accuracy:0.72, Best Param:{'clf__max_depth': 4}
+2025-10-02 12:00:54 Best optimized classifier: RandomForestClassifier , Accuracy:0.72, Best Param:{'clf__max_depth': 4}
+2025-10-02 12:00:55 Pipeline is finished
+2025-10-02 12:00:55 Pipeline is finished
+2025-10-02 12:00:55 Pipeline is finished
+2025-10-02 12:00:55 Start reading data from tmp/d0s0
+2025-10-02 12:00:55 Start reading data from tmp/d0s0
+2025-10-02 12:00:55 Start reading data from tmp/d0s0
+2025-10-02 12:00:55 Start reading data from tmp/d0s0
+2025-10-02 12:00:55 Finish loading data from tmp/d0s0, dimension is (112, 950), 
+ 			 label counts Counter({'False': 62, 'True': 50})
+2025-10-02 12:00:55 Finish loading data from tmp/d0s0, dimension is (112, 950), 
+ 			 label counts Counter({'False': 62, 'True': 50})
+2025-10-02 12:00:55 Finish loading data from tmp/d0s0, dimension is (112, 950), 
+ 			 label counts Counter({'False': 62, 'True': 50})
+2025-10-02 12:00:55 Finish loading data from tmp/d0s0, dimension is (112, 950), 
+ 			 label counts Counter({'False': 62, 'True': 50})
+2025-10-02 12:00:55 Filtered the features with max within_class prevalence lower than 0.2, dimension is (112, 82)
+2025-10-02 12:00:55 Filtered the features with max within_class prevalence lower than 0.2, dimension is (112, 82)
+2025-10-02 12:00:55 Filtered the features with max within_class prevalence lower than 0.2, dimension is (112, 82)
+2025-10-02 12:00:55 Filtered the features with max within_class prevalence lower than 0.2, dimension is (112, 82)
+2025-10-02 12:00:55 Dataset shape Counter({np.int64(0): 62, np.int64(1): 50}) before over sampling
+2025-10-02 12:00:55 Dataset shape Counter({np.int64(0): 62, np.int64(1): 50}) before over sampling
+2025-10-02 12:00:55 Dataset shape Counter({np.int64(0): 62, np.int64(1): 50}) before over sampling
+2025-10-02 12:00:55 Dataset shape Counter({np.int64(0): 62, np.int64(1): 50}) before over sampling
+2025-10-02 12:00:55 Over sampled dataset with SMOTE, shape Counter({np.int64(1): 62, np.int64(0): 62})
+2025-10-02 12:00:55 Over sampled dataset with SMOTE, shape Counter({np.int64(1): 62, np.int64(0): 62})
+2025-10-02 12:00:55 Over sampled dataset with SMOTE, shape Counter({np.int64(1): 62, np.int64(0): 62})
+2025-10-02 12:00:55 Over sampled dataset with SMOTE, shape Counter({np.int64(1): 62, np.int64(0): 62})
+2025-10-02 12:00:55 Select the best tree-based classifiers: ['RandomForestClassifier'] 
+ 			 and combination of scalers: ['Non'] 
+ 			 and classifiers: 
+ 			 with default parameters
+2025-10-02 12:00:55 Select the best tree-based classifiers: ['RandomForestClassifier'] 
+ 			 and combination of scalers: ['Non'] 
+ 			 and classifiers: 
+ 			 with default parameters
+2025-10-02 12:00:55 Select the best tree-based classifiers: ['RandomForestClassifier'] 
+ 			 and combination of scalers: ['Non'] 
+ 			 and classifiers: 
+ 			 with default parameters
+2025-10-02 12:00:55 Select the best tree-based classifiers: ['RandomForestClassifier'] 
+ 			 and combination of scalers: ['Non'] 
+ 			 and classifiers: 
+ 			 with default parameters
+2025-10-02 12:01:18 Hypertune the best classifier RandomForestClassifier with GridSearchCV
+2025-10-02 12:01:18 Hypertune the best classifier RandomForestClassifier with GridSearchCV
+2025-10-02 12:01:18 Hypertune the best classifier RandomForestClassifier with GridSearchCV
+2025-10-02 12:01:18 Hypertune the best classifier RandomForestClassifier with GridSearchCV
+2025-10-02 12:02:50 Best optimized classifier: RandomForestClassifier , Accuracy:0.72, Best Param:{'clf__max_depth': 4}
+2025-10-02 12:02:50 Best optimized classifier: RandomForestClassifier , Accuracy:0.72, Best Param:{'clf__max_depth': 4}
+2025-10-02 12:02:50 Best optimized classifier: RandomForestClassifier , Accuracy:0.72, Best Param:{'clf__max_depth': 4}
+2025-10-02 12:02:50 Best optimized classifier: RandomForestClassifier , Accuracy:0.72, Best Param:{'clf__max_depth': 4}
+2025-10-02 12:02:50 Pipeline is finished
+2025-10-02 12:02:50 Pipeline is finished
+2025-10-02 12:02:50 Pipeline is finished
+2025-10-02 12:02:50 Pipeline is finished

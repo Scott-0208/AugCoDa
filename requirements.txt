@@ -1,0 +1,26 @@
+# Core scientific computing packages
+numpy
+scipy
+pandas
+
+# Machine learning packages
+scikit-learn
+xgboost
+
+# Deep learning packages
+tensorflow>=2.0
+keras
+
+# Data visualization
+matplotlib
+
+# Additional ML utilities
+imbalanced-learn
+pycm
+plotnine
+joblib
+
+# Note: scikit-feature is not available on PyPI
+# If you need to run the 'maml' method, install it separately:
+# Option 1 (conda): conda install -c conda-forge scikit-feature
+# Option 2 (pip from GitHub): pip install git+https://github.com/jundongl/scikit-feature.git
